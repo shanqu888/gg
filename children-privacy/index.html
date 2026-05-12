@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ishanqoo.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            padding: 40px;
+            margin-top: 20px;
+        }
+        
+        header {
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .meta-info {
+            color: #6c757d;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+        
+        .last-updated {
+            background: #e8f4fd;
+            padding: 10px 15px;
+            border-radius: 6px;
+            display: inline-block;
+            margin-top: 10px;
+            color: #0d6efd;
+            font-weight: 500;
+        }
+        
+        .company-name {
+            color: #495057;
+            font-size: 1.1rem;
+            margin: 10px 0;
+            font-weight: 500;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            font-size: 1.8rem;
+            margin: 40px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e9ecef;
+            font-weight: 600;
+        }
+        
+        h3 {
+            color: #495057;
+            font-size: 1.3rem;
+            margin: 30px 0 15px 0;
+            font-weight: 600;
+        }
+        
+        h4 {
+            color: #6c757d;
+            font-size: 1.1rem;
+            margin: 20px 0 10px 0;
+            font-weight: 500;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #495057;
+        }
+        
+        ul, ol {
+            margin: 15px 0 15px 30px;
+            color: #495057;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .data-category {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #28a745;
+        }
+        
+        .data-category h4 {
+            color: #28a745;
+            margin-top: 0;
+        }
+        
+        .purpose-box {
+            background: #e8f4fd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #0d6efd;
+        }
+        
+        .purpose-box h4 {
+            color: #0d6efd;
+            margin-top: 0;
+        }
+        
+        .rights-box {
+            background: #fff3cd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .rights-box h4 {
+            color: #ffc107;
+            margin-top: 0;
+        }
+        
+        .warning-box {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        
+        .contact-info {
+            background: #e8f4fd;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        .contact-info h3 {
+            color: #0d6efd;
+            margin-top: 0;
+        }
+        
+        .data-flow {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .flow-item {
+            flex: 1;
+            min-width: 200px;
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .flow-item h5 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+        
+        .flow-item p {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 0.9rem;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .data-flow {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class='container'>
+<p>Children's Privacy Policy </p>
+<p>Effective Date: April 16, 2026</p>
+<p>This Children's Privacy Policy (hereinafter referred to as the "Policy") is formulated by SANQOO GLOBAL PTE. LTD. (hereinafter referred to as "we" or "us") and applies to the mobile applications (hereinafter referred to as the "App") launched by us on Google Play that are intended for children under 13 years of age (as defined by the COPPA Rule).</p>
+<p>We strictly comply with the Children's Online Privacy Protection Rule (COPPA Rule), Google Play Family Policy, and relevant global children's privacy protection laws and regulations. We are committed to fully protecting the personal information security of child users, respecting parents' control over their children's personal information, and eliminating any behaviors that harm children's privacy. This Policy aims to clearly inform you (the parent or legal guardian of the child, hereinafter referred to as "you") how we collect, use, store, and protect the personal information of child users, as well as the rights you enjoy.</p>
+<p>I. Scope of Application</p>
+<p>This Policy applies to all child users under 13 years of age who use the App, as well as parents or legal guardians who use the App on behalf of children. Regardless of the device (mobile phone, tablet, etc.) through which the child user accesses the App, they shall be bound by this Policy.</p>
+<p>If you confirm that your child is 13 years of age or older, please stop using the App, and this Policy shall no longer apply. If you have mistakenly provided the App to a minor aged 13 or older, please delete the App in a timely manner and contact us to handle the relevant information.</p>
+<p>II. Core Privacy Principles</p>
+<p>Minimal Data Collection: We only collect the information necessary to maintain the core functions of the App, do not collect any personal information of children irrelevant to the functions, and strictly follow the principle of data minimization.</p>
+<p>Parental Informed Consent: Before collecting or using the personal information of children, we must obtain your verifiable parental consent. We will never collect any personal information of children without consent.</p>
+<p>Prohibition of Data Monetization: We will not use children's personal information for profitable purposes such as targeted advertising or commercial promotion, nor will we disclose children's personal information to third parties for commercial purposes.</p>
+<p>Security Protection: We adopt reasonable security measures such as encryption and access control to protect the confidentiality, security, and integrity of children's personal information and prevent information leakage, tampering, or loss.</p>
+<p>Clear Retention Period: We only retain children's personal information for the shortest reasonable period necessary to achieve the purpose of collection. After the period expires, we will completely delete it and will not retain it indefinitely.</p>
+<p>III. Personal Information of Children We Collect and Its Purposes</p>
+<p>We promise to only collect the information necessary to realize the core functions of the App and not collect irrelevant information. All collection behaviors comply with the requirements of COPPA and Google Play Policy, as detailed below:</p>
+<p>(I) Necessarily Collected Information</p>
+<p>App Usage Data: Including behavioral data of child users using the App (such as usage duration, accessed function modules, operation records, game progress, scores, achievement badges, etc.), which is used to optimize the App experience, fix bugs, and provide personalized usage services (such as progress synchronization), and is not used for any commercial analysis or advertising push.</p>
+<p>Basic Device Information: Including device type, operating system version, and App version number, which is used to ensure the compatibility and stability of the App and troubleshoot device adaptation issues. We do not collect device identifiers (such as IMEI, Android ID), advertising identifiers, or other device information that can be used to identify individuals.</p>
+<p>(II) Information We Will Never Collect</p>
+<p>To protect children's privacy, we will never collect the following information (whether or not we obtain parental consent):</p>
+<p>Personal Identification Information: Such as the child's real name, ID number, home address, phone number, email address, etc.</p>
+<p>Sensitive Biometric Information: Such as face, voice, fingerprint, etc.</p>
+<p>Location Information: We do not obtain the child's precise or vague location and do not request location permissions.</p>
+<p>Financial Information: Such as bank card number, payment password, credit card information, etc.</p>
+<p>Social Information: We do not collect the child's social accounts or contact lists, nor do we provide any social interaction functions (such as chatting, sharing personal information).</p>
+<p>Other Irrelevant Information: Such as browsing history, search records, device address book, photo album, files, etc.</p>
+<p>(III) Methods of Information Collection</p>
+<p>1. Active Collection: Only after obtaining your verifiable parental consent, we will automatically collect the above necessary information through normal in-App operations (such as using functions, completing tasks), and will not collect information through inducement, coercion, or other means.</p>
+<p>2. Passive Collection: We will not passively track the online behavior of child users through Cookies, tracking pixels, third-party plug-ins, or other means, nor will we collect any unauthorized information.</p>
+<p>3. Third-Party Collection: We do not entrust any third party to collect children's personal information, nor do we allow any third party to collect children's personal information in the App.</p>
+<p>IV. Parental Consent Mechanism</p>
+<p>In accordance with the requirements of the COPPA Rule and Google Play, before collecting any personal information of children, we will obtain your verifiable parental consent through the following methods to ensure that you are fully informed and make an independent choice:</p>
+<p>First-Use Prompt: When a child user opens the App for the first time, a parental verification page will pop up first, clearly informing you of the App's privacy policy, the information to be collected and its purposes, requiring you to confirm that you are the child's parent/legal guardian, and complete the verification.</p>
+<p>Verifiable Consent Methods: We will adopt verifiable parental consent methods that comply with FTC requirements (such as parental email verification, SMS verification, etc.) to ensure that the consent behavior is completed by you personally and prevent children from operating the consent by themselves.</p>
+<p>Notice of Consent Change: If we need to change the scope or purpose of information collection in the future, we will send you a notice again to re-obtain your verifiable consent. We will not change the information collection and use methods before obtaining consent.</p>
+<p>If you do not provide consent, we will prohibit children from using the core functions of the App, will not collect any information, and only provide non-interactive functions such as App introduction and privacy policy viewing.</p>
+<p>V. Use, Storage and Protection of Information</p>
+<p>(I) Use of Information</p>
+<p>The personal information of children we collect is only used for the following purposes and no other purposes:</p>
+<p>Providing Core App Functions: Such as recording game progress, saving scores and achievements to ensure that child users can continue to operate when they use the App next time.</p>
+<p>Optimizing App Experience: Troubleshooting App bugs, fixing vulnerabilities, adjusting function design, and improving the stability and applicability of the App based on usage data.</p>
+<p>Responding to Parental Requests: Such as locating and processing relevant information when you request to view or delete your child's personal information.</p>
+<p>We will never use children's personal information for targeted advertising, commercial promotion, data transactions, or other purposes, nor will we disclose, share, or transfer children's personal information to any third party (except for necessary compliance and security service providers).</p>
+<p>(II) Information Storage</p>
+<p>Storage Location: Children's personal information will be stored on servers that meet global privacy protection standards (such as Google Cloud overseas servers), and we strictly comply with relevant requirements for localized data storage (such as EU GDPR, US COPPA, etc.).</p>
+<p>Storage Period: We only retain the information for the shortest period necessary to achieve the purpose of collection. When the information is no longer needed (such as when the child no longer uses the App or you request deletion), we will completely delete all children's personal information within 15 working days, and it cannot be recovered after deletion.</p>
+<p>Storage Security: We adopt security measures such as TLS encrypted transmission, encrypted data storage, and access control to restrict internal personnel's access to children's personal information, conduct regular security inspections and vulnerability repairs, and prevent information leakage, tampering, or loss.</p>
+<p>(III) Information Protection</p>
+<p>We have established a complete children's personal information protection system, strictly restricting the behavior of internal personnel, regularly conducting children's privacy protection training for employees, clarifying the permissions and responsibilities of employees to access children's information, and prohibiting employees from privately collecting, disclosing, or abusing children's personal information.</p>
+<p>If a security incident such as information leakage or tampering occurs, we will immediately activate an emergency plan, take remedial measures to prevent the expansion of damage, notify the affected parents within 24 hours, and report to the relevant regulatory authorities at the same time.</p>
+<p>VI. Parents' Rights</p>
+<p>As the parent/legal guardian of the child, you enjoy the following rights, and we will fully cooperate with you to exercise your rights free of charge:</p>
+<p>Right to View: You have the right to view all personal information about your child collected by us at any time. We will display the relevant information to you in a clear and easy-to-understand manner within 7 working days after you make the request.</p>
+<p>Right to Delete: You have the right to request us to delete all personal information of your child. We will completely delete all relevant information, including data stored on servers and backups, within 15 working days after receiving your deletion request, and feedback the deletion result to you.</p>
+<p>Right to Withdraw Consent: You have the right to withdraw your consent to our collection and use of your child's personal information at any time. After withdrawing consent, we will immediately stop collecting and using your child's personal information and delete the collected information (unless required by law to retain), but this will not affect the information processing behaviors completed before the withdrawal of consent.</p>
+<p>Right to Correct: If you find that the personal information of your child collected by us is incorrect, you have the right to request us to correct it. We will complete the correction and feedback within 7 working days after receiving the request.</p>
+<p>Right to Consult: If you have any questions about this Policy or the collection and use of your child's personal information, you have the right to contact us at any time, and we will give a clear reply within 7 working days.</p>
+<p>Method of Exercising the Above Rights: Please submit your identity certificate (such as a photo of the parent's ID card) and the certificate of the relationship between the child and you through the contact information at the end of this Policy. After we verify your identity, we will handle your request in a timely manner.</p>
+<p>VII. Third-Party Service Description</p>
+<p>To ensure the normal operation of the App, we may use some compliant third-party services (such as Google Play Services, App crash detection services), but we will strictly screen third-party service providers to ensure that they meet the requirements of children's privacy protection:</p>
+<p>Third-party services are only used to realize the core functions of the App (such as crash repair, compatibility adaptation), and third-party services are not allowed to collect, store, or use children's personal information.</p>
+<p>We sign a strict privacy agreement with third-party service providers, clarifying their privacy protection responsibilities, requiring them not to disclose or abuse any information they may come into contact with. If a third party violates the agreement, we will immediately terminate the cooperation and hold them accountable.</p>
+<p>This Policy does not apply to the privacy policies of third-party services. You can view the privacy policies of third-party services to understand their information processing methods.</p>
+<p>We will never use any third-party advertising services or data analysis services (except for compliant crash detection and performance analysis) to prevent third parties from accessing children's personal information through the App.</p>
+<p>VIII. Advertising Policy</p>
+<p>This App strictly complies with the Google Play Children's App Advertising Policy and COPPA requirements, as follows:</p>
+<p>We do not display any targeted advertisements or personalized advertisements, and only display non-commercial, educational advertisements suitable for children's age groups (if any). The advertisement content must go through strict review to eliminate violent, vulgar, and inducing content.</p>
+<p>We do not induce children to click on or purchase goods or services through advertisements, nor do we collect children's click behavior for advertising optimization.</p>
+<p>If the App contains advertisements, the word "Advertisement" will be clearly marked on the advertisement page, and the advertisement content is suitable for children's age and will not affect the normal use of children.</p>
+<p>IX. Update and Modification of the Policy</p>
+<p>1. We may modify this Policy in accordance with the updates of Google Play Policy, COPPA Rule, and relevant laws and regulations, or the adjustment of the App's functions.</p>
+<p>2. After the Policy is updated, we will publish an update notice in a prominent position of the App (such as the splash screen, settings page), clearly informing you of the modified content. If you do not agree with the modified Policy, you can stop using the App, and we will delete all personal information of your child; if you continue to use the App, it shall be deemed that you agree to the modified Policy.</p>
+<p>3. The modified Policy shall take effect on the date of publication, and the original Policy shall be abolished at the same time.</p>
+<p>X. Developer Information and Contact Methods</p>
+<p>Developer Name/Company Name: SANQOO GLOBAL PTE. LTD.</p>
+<p>Registered Address/Office Address: 503 CANBERRA DRIVE, #02-10, CANBERRA RESIDENCES, SINGAPORE 768125</p>
+<p>Contact Email: shanqugame@gmail.com</p>
+<p>If you have any questions, complaints, or need to exercise your parental rights, you can contact us through the above contact information, and we will respond and handle them in a timely manner.</p>
+<p>XI. Disclaimer</p>
+<p>1. If the leakage or loss of children's personal information is caused by force majeure (such as earthquakes, floods, network interruptions, etc.), malicious attacks by third parties, or other reasons not attributable to us, we shall not be liable, but we will try our best to assist you in reducing losses.</p>
+<p>2. If you fail to perform your guardianship duties, resulting in children providing personal information or operating the App on their own, the resulting consequences shall be borne by you.</p>
+<p>XII. Other Provisions</p>
+<p>1. This Policy shall be governed by the laws of the region where you are located. If any dispute arises between you and us regarding this Policy, it shall first be resolved through friendly negotiation; if negotiation fails, you may file a lawsuit with the court with jurisdiction in our place of registration.</p>
+<p>2. This Policy is a complete agreement between you and us regarding the protection of children's privacy, replacing all previous relevant agreements. If any clause of this Policy is deemed invalid or unenforceable, it shall not affect the validity of other clauses.</p>
+<p>SANQOO GLOBAL PTE. LTD.</p>
+<p>April 16, 2026</p>
+<p>|</p>
+</div>
+</body>
+</html>
